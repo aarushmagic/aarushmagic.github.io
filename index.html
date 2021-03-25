@@ -3,6 +3,7 @@ body {
     text-align: Center;
     background-color: red;
     font: Times New Roman;
+    font-size: 100%;
 }
 
 h1{
@@ -17,17 +18,18 @@ h1{
     
 p{
     color: white;
-    font-size: 20px;
+    font-size: 100%;
 }    
  
 input{
     width: 80%;
-    height: 10%;
+    height: 30px;
     border-radius: 5px;
     border-width: 1px;
     background-color: white;
     color: brown;
     height: 30px;
+    font-size:15px;
 }
     
 #search {
@@ -55,13 +57,19 @@ button {
     border-width: 1px;
     background-color: navy;
     color: white;
-    font-size: 100%;
+    font-size: 200%;
     height: 30%;
     width: 45%;
     }
     img{
     width:10%;
     height: auto;
+    }
+@media only screen and (max-width: 450px) {
+ 
+h1{
+    font-size: 600%;
+        }
     }
 </style>
 
